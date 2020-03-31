@@ -1,3 +1,13 @@
 import React from "react"
+import Layout from "../templates/layout"
+import PostList from "../components/postList"
 
-export default () => <div>Hello world!</div>
+const Index = () => {
+  return (
+    <Layout>
+      <PostList />
+    </Layout>
+  )
+}
+
+export default Index
